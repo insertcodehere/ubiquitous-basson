@@ -1,1 +1,5 @@
 This file is going to be used to contain the project requirments.
+
+1. Create a briefing
+2. Select a team
+3. Start working
