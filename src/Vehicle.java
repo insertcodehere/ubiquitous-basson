@@ -3,7 +3,7 @@ public class Vehicle {
     private String model;
     private String plate;
 
-    public constructor(String model, String plate) {
+    public Vehicle(String model, String plate) {
         this.model = model;
         this.plate = plate;
     }
