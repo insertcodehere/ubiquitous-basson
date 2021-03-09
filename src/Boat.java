@@ -1,5 +1,6 @@
 public class Boat extends Vehicle {
 
+    // Think about making this an enum
     private String boatType;
 
     public Boat(String model, String plate) {
