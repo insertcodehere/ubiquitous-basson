@@ -1,16 +1,19 @@
 public class Boat extends Vehicle {
 
-    private enum BoatType { PADDLE, AIR_BOAT, MOTOR_BOAT };
+    private String boatType;
 
-    private BoatType boatType;
-
-    public constructor(String model, String plate) {
+    public Boat(String model, String plate) {
         super(model, plate);
-        this.numberOfWheels = 4;
+        this.boatType = "Motor boat";
     }
 
-    public getNumberOfWheels() {
-        return this.numberOfWheels;
+    public String getBoatType() {
+        return this.boatType;
+    }
+    
+    @Override
+    public String toString() {
+        return "This is a super " + this.getBoatType() + "!";
     }
 
 }
