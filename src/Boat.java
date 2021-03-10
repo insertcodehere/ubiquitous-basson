@@ -1,6 +1,6 @@
 public class Boat extends Vehicle {
 
-    private String boatType;
+    private String boatType; // This property could be an enum.
 
     public Boat(String model, String plate) {
         super(model, plate);
